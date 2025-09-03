@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coach-retail-analytics-dashboard/static/css/main.e6c13ad2.css",
+    "main.js": "/coach-retail-analytics-dashboard/static/js/main.954053e9.js",
+    "static/js/453.17408da2.chunk.js": "/coach-retail-analytics-dashboard/static/js/453.17408da2.chunk.js",
+    "index.html": "/coach-retail-analytics-dashboard/index.html",
+    "main.e6c13ad2.css.map": "/coach-retail-analytics-dashboard/static/css/main.e6c13ad2.css.map",
+    "main.954053e9.js.map": "/coach-retail-analytics-dashboard/static/js/main.954053e9.js.map",
+    "453.17408da2.chunk.js.map": "/coach-retail-analytics-dashboard/static/js/453.17408da2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.954053e9.js"
+  ]
+}
