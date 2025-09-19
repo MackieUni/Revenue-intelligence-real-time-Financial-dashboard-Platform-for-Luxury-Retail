@@ -58,7 +58,7 @@ interface Segment {
 /* =======================
    Component
    ======================= */
-const CoachRetailAnalytics: React.FC = () => {
+const RetailAnalytics: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabId>("dashboard");
   const [forecastHorizon, setForecastHorizon] = useState<number>(12);
 
