@@ -560,4 +560,8 @@ const combinedData: CombinedPoint[] = [
   );
 };
 
+<<<<<<< HEAD:src/CoachRetailAnalytics.tsx
 export default RetailAnalytics;
+=======
+export default CoachRetailAnalytics;
+>>>>>>> 41f5736ff9064d9de931be28c2b40eb1b0093b05:src/RetailAnalytics.tsx
