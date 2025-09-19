@@ -58,7 +58,7 @@ interface Segment {
 /* =======================
    Component
    ======================= */
-const CoachRetailAnalytics: React.FC = () => {
+const RetailAnalytics: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabId>("dashboard");
   const [forecastHorizon, setForecastHorizon] = useState<number>(12);
 
@@ -507,12 +507,12 @@ const combinedData: CombinedPoint[] = [
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Coach North America eCommerce Analytics</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">North America eCommerce Analytics</h1>
           <p className="text-gray-600">Real-time sales forecasting and performance analytics dashboard</p>
           <div className="mt-4 flex items-center space-x-4 text-sm text-gray-500">
             <span>Last Updated: {new Date().toLocaleString()}</span>
             <span>•</span>
-            <span>Data Source: Coach NA eCommerce Platform</span>
+            <span>Data Source: NA eCommerce Platform</span>
           </div>
         </div>
 
@@ -552,7 +552,7 @@ const combinedData: CombinedPoint[] = [
 
         {/* Footer */}
         <div className="mt-12 pt-6 border-t border-gray-200 text-center text-sm text-gray-500">
-          <p>Coach North America Retail Finance Analytics • Built with React & Recharts</p>
+          <p> North America Retail Finance Analytics • Built with React & Recharts</p>
           <p className="mt-1">Real-time forecasting powered by advanced ML models</p>
         </div>
       </div>
@@ -560,4 +560,4 @@ const combinedData: CombinedPoint[] = [
   );
 };
 
-export default CoachRetailAnalytics;
+export default RetailAnalytics;
